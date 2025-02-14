@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Layout from "../components/Layout";
 import PostItem from "./PostItem";
-import PostService from "../services/post.service";
+import PostService from "../Services/post.service";
 
 const Post = () => {
   const [postText, setPostText] = useState("");

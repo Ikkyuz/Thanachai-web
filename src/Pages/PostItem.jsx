@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React, { useState }  from 'react'
-import PostService from '../services/post.service';
+import PostService from '../Services/post.service';
 
 const PostItem = ({ id, fullName, text, datetime, comments }) => {
   const [textComments, setTextComments] = useState(comments);
